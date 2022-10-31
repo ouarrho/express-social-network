@@ -1,0 +1,19 @@
+{
+    "name": "social-network",
+    "version": "1.0.0",
+    "description": "Express social network :)",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "author": "Ouarrho",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "moment": "^2.29.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
