@@ -4,14 +4,17 @@
     "description": "Express social network :)",
     "main": "index.js",
     "scripts": {
-        "start": "node index",
-        "dev": "nodemon index"
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
     },
     "author": "Ouarrho",
     "license": "MIT",
     "dependencies": {
+        "dotenv": "^16.0.3",
         "express": "^4.18.2",
-        "moment": "^2.29.4"
+        "express-graphql": "^0.12.0",
+        "moment": "^2.29.4",
+        "uuid": "^9.0.0"
     },
     "devDependencies": {
         "nodemon": "^2.0.20"
